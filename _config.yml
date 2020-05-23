@@ -27,19 +27,7 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 #theme: minima
-#theme: Architect
-#theme: Cayman
-#theme: Dinky
-#theme: Hacker
-#theme: Leap day
-#theme: Merlot
-#theme: Midnight
-#theme: Minima
-#theme: Minimal
-#theme: Modernist
-#theme: Slate
-theme: jekyll-theme-Tactile
-#theme: Time machine
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
