@@ -38,7 +38,7 @@ markdown: kramdown
 #theme: Minimal
 #theme: Modernist
 #theme: Slate
-theme: Tactile
+theme: tactile
 #theme: Time machine
 plugins:
   - jekyll-feed
