@@ -1,7 +1,7 @@
 # Profile
 Sunday programmer and net commerce.
 
-# 学歴・職歴
+# Educational background / Work history
 
 # Accounts
 
