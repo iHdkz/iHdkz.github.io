@@ -1,6 +1,6 @@
 # iHdkz.github.io
-実際に動いているポートフォリオはこちら
 
+実際に動いているgithub pages
 https://ihdkz.github.io/
 
 環境構築手順

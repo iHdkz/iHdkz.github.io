@@ -2,6 +2,9 @@
 Sunday programmer and net commerce.
 
 # Educational background / Work history
+1999.3 Namerikawa junior high school
+2002.3 Uodu high school
+2006.3 Kanazawa University
 
 # Accounts
 
