@@ -1,10 +1,11 @@
 # Profile
-net importer iHdkz.
+Change before you have to.
 
-# Educational background / Work history
-- 1999.3 Namerikawa junior high school
-- 2002.3 Uodu high school
-- 2006.3 Kanazawa University
+Love the life you live. Live the life you love.
+
+My life didn't please me, so I created my life.
+
+It always seems impossible until it's done.
 
 # Accounts
 
