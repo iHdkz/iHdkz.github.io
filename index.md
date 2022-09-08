@@ -1,3 +1,4 @@
+# 日々の記録ページ
 # Profile
 * Change before you have to.
 * Love the life you live. Live the life you love.
