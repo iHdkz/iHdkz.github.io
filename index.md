@@ -9,11 +9,6 @@
 |service|account|remarks|
 |:---|:---|:---|
 |Qiita|[iHdkz](https://qiita.com/iHdkz)|Qiita|
-|HatenaBlog|[iHdkz](https://ihdkz.hatenablog.com/)|はてなブログ|
-|Gist|[iHdkz](https://gist.github.com/iHdkz)|Gist（gistってガイストって呼ぶもん？）|
+|Gist|[iHdkz](https://gist.github.com/iHdkz)|Gist|
 |GitHub|[iHdkz](https://github.com/iHdkz)|github|
-|SlideShare|||
-|Kaggle|||
-
-じゅげむじゅげむ五劫の擦り切れ
 
