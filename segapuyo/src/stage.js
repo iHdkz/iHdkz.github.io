@@ -288,5 +288,5 @@ class Stage {
         animation();
     }
 }
-Stage.fallingPuyoList = []:
+Stage.fallingPuyoList = [];
 Stage.erasingPuyoInfoList = [];
