@@ -7,7 +7,7 @@ class Score {
         this.fontTemplateList = [];
         let fontWidth = 0;
         for(let i = 0; i < 10; i++) {
-            const fontImage = document.getElementById('font${i}');
+            const fontImage = document.getElementById(`font${i}`);
             if(fontWidth === 0) {
                 fontWidth = fontImage.width / fontImage.height * Config.fontHeight;
             }
