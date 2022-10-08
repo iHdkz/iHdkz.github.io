@@ -17,7 +17,7 @@ function initialize() {
     // ステージを準備する
     Stage.initialize();
     // ユーザー操作の準備をする
-    Player.initilize();
+    Player.initialize();
     // シーンを初期状態にセットする
     Score.initilize();
     // スコア表示の準備をする
