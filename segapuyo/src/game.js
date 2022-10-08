@@ -19,7 +19,7 @@ function initialize() {
     // ユーザー操作の準備をする
     Player.initialize();
     // シーンを初期状態にセットする
-    Score.initilize();
+    Score.initialize();
     // スコア表示の準備をする
     mode = 'start';
     // フレームを初期化する
