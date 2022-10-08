@@ -139,9 +139,9 @@ class Stage {
     }
 
     // 消せるかどうか判定する
-    static checkErase(startFrae) {
+    static checkErase(startFrame) {
         this.eraseStartFrame = startFrame;
-        this.erasingPuyoInforList.length = 0;
+        this.erasingPuyoInfoList.length = 0;
 
         // 何色おぷよを消したかを記録する
         const erasedpuyoColor = {};

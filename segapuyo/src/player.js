@@ -140,7 +140,7 @@ class Player {
         }
         // 新しいぷよの色を決める
         const puyoColors = Math.max(1, Math.min(5, Config.puyoColors));
-        this.centerPuyo = Math.floor(Math.random() * puyoCOlors) + 1;
+        this.centerPuyo = Math.floor(Math.random() * puyoColors) + 1;
         this.movablePuyo = Math.floor(Math.random() * puyoColors) + 1;
         // 新しいぷよ画像を作成する
         this.centerPuyoElement = PuyoImage.getPuyo(this.centerPuyo);

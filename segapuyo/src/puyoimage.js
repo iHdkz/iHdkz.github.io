@@ -20,7 +20,7 @@ class PuyoImage {
     }
     
     static getPuyo(index) {
-        const image = this.puyoImages[index -1].cloneNode(true);
+        const image = this.puyoImages[index - 1].cloneNode(true);
         return image;
     }
 
