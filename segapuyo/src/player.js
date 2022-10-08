@@ -198,7 +198,7 @@ class Player {
                 }
                 y += 1;
                 this.puyoStatus.y = y;
-                if(y + 1 >= Config.stageRows || Stage.board[y + 1][x] || (y + dy + 1 >= && (y + dy + 1 >= Config.stageRows || Stage.board[y + dy + 1][x + dx]))) {
+                if(y + 1 >= Config.stageRows || Stage.board[y + 1][x] || (y + dy + 1 >= 0 && (y + dy + 1 >= Config.stageRows || Stage.board[y + dy + 1][x + dx]))) {
                     isBlocked = true;
                 }
                 if(!isBlocked) {
