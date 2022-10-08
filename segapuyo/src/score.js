@@ -47,12 +47,12 @@ class Score {
         }
         this.addScore(scale * piece * 10);
     }
-    static add Score(score) {
+    static addScore(score) {
         this.score += score;
         this.showScore();
     }
 }
 
 Score.rensaBonus = [0, 8 ,16, 32, 64, 96, 128 ,160, 192, 224, 256, 288, 320, 352, 384, 416, 448, 480, 512, 544, 576, 608, 640, 672];
-Score.pieceBonus = [0, 0, 0, 0 ,2, 3, 4, 5, 6, 7 10, 10];
+Score.pieceBonus = [0, 0, 0, 0 ,2, 3, 4, 5, 6, 7, 10, 10];
 Score.colorBonus = [0, 0, 3, 6, 12, 24];
