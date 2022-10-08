@@ -168,7 +168,7 @@ class Player {
         this.centerPuyoElement.style.left = this.puyoStatus.left + 'px';
         this.centerPuyoElement.style.top = this.puyoStatus.top + 'px';
         const x = this.puyoStatus.left + Math.cos(this.puyoStatus.rotation * Math.PI / 180) * Config.puyoImgWidth;
-        const y = this.puyoStatus.top - Math.sin(this.puyoStatus.rotation * Math.PI / 180) * ConfigpuyoImgHeight;
+        const y = this.puyoStatus.top - Math.sin(this.puyoStatus.rotation * Math.PI / 180) * Config.puyoImgHeight;
         this.movablePuyoElement.style.left = x + 'px';
         this.movablePuyoElement.style.top = y + 'px';
     }
@@ -194,7 +194,7 @@ class Player {
                 // ブロックの境を超えたので、再チェックする
                 // 下キーが押されていたら、得点を加算する
                 if(isDownPressed) {
-                    ScreenOrientation.addScore(1);
+                    Score.addScore(1);
                 }
                 y += 1;
                 this.puyoStatus.y = y;
@@ -239,7 +239,7 @@ class Player {
         this.setPuyoPosition();
         if(this.keyStatus.right || this.keyStatus.left) {
             // 左右の確認をする
-            const cs = (this.keyStatus.right) ? 1 : -1;
+            const cx = (this.keyStatus.right) ? 1 : -1;
             const x = this.puyoStatus.x;
             const y = this.puyoStatus.y;
             const mx = x + this.puyoStatus.dx;
