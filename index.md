@@ -13,3 +13,4 @@
 |Gist|[iHdkz](https://gist.github.com/iHdkz)|Gist|
 |GitHub|[iHdkz](https://github.com/iHdkz)|github|
 
+* [puyopuyo](segapuyo/index.html)
