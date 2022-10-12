@@ -24,7 +24,7 @@ class PuyoImage {
         return image;
     }
 
-    static prepareBatankyu(frame) {
+    static prepareBatankyu(framenn) {
         this.gameOverFrame = frame;
         Stage.stageElement.appendChild(this.batankyuImage);
         this.batankyuImage.style.top = -this.batankyuImage.height + 'px';
