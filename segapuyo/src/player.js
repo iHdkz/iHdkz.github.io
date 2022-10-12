@@ -337,8 +337,8 @@ class Player {
                 if(cx === -1) {
                     if(y + 1 < 0 || x - 1 < 0 || x - 1 >= Config.stageCols || Stage.board[y + 1][x - 1]) {
                         if(y + 1 >= 0) {
-                             // ブロックがある。回転出来なかった
-                              canRotate = false;
+                            // ブロックがある。回転出来なかった
+                            canRotate = false;
                         }
                     }
                 }

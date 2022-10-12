@@ -50,6 +50,7 @@ function loop() {
         case 'checkErase':
             // 消せるかどうか判定する
             const eraseInfo = Stage.checkErase(frame);
+
             if(eraseInfo) {
                 mode = 'erasing';
                 combinationCount++;
@@ -83,6 +84,7 @@ function loop() {
             }
             break;
         case 'playing':
+
             // プレイヤーが操作する
             const action = Player.playing(frame);
             mode = action; // 'playing' 'moving' 'rotating' 'fix' のどれかが返ってくる
@@ -112,9 +114,10 @@ function loop() {
             break;
         case 'batankyu':
             PuyoImage.batankyu(frame);
-            Player.bantankyu();
+            Player.batankyu();
             break;
         }
+
         frame++;
     requestAnimationFrame(loop); // 1/60秒後にもう一度呼び出す
 }

@@ -192,7 +192,7 @@ class Stage {
                 checkSequentialPuyo(x,y);
                 if(sequencePuyoInfoList.length == 0 || sequencePuyoInfoList.length < Config.erasePuyoCount) {
                     // 連続して並んでいる数が足りなかったので消さない
-                    if(sequencePuyoInfoList.lenght) {
+                    if(sequencePuyoInfoList.length) {
                         // 退避していたぷよを消さないリストに追加する
                         existingPuyoInfoList.push(...sequencePuyoInfoList);
                     }
@@ -200,6 +200,9 @@ class Stage {
                     // これらは消して良いので消すリストに追加する
                     this.erasingPuyoInfoList.push(...sequencePuyoInfoList);
                     erasedpuyoColor[puyoColor] = true;
+    console.log("chekckErase:INNER");
+    console.table(Stage.board);
+    console.table(this.erasedpuyoInfoList);
                 }
             }
         }
@@ -223,10 +226,10 @@ class Stage {
     static erasing(frame) {
         const elapsedFrame = frame - this.eraseStartFrame;
         const ratio = elapsedFrame / Config.eraseAnimationDuration;
-        if(ratioo > 1) {
+        if(ratio > 1) {
             // アニメーションを終了する
             for(const info of this.erasingPuyoInfoList) {
-                let element = info.cell.elemnt;
+                let element = info.cell.element;
                 this.stageElement.removeChild(element);
             }
             return false;

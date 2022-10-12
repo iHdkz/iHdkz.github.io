@@ -36,6 +36,7 @@ class Score {
             // 10で割って次の桁の準備をしておく
             score = Math.floor(score / 10);
         }
+        //console.table(Stage.board);
     }
     static calculateScore(rensa, piece, color) {
         rensa = Math.min(rensa, Score.rensaBonus.length - 1);
