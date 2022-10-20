@@ -1,4 +1,4 @@
-# 日々の記録ページ
+# 夢工房
 # Profile
 * Change before you have to.
 * Love the life you live. Live the life you love.
@@ -14,3 +14,4 @@
 |GitHub|[iHdkz](https://github.com/iHdkz)|github|
 
 * [puyopuyo](segapuyo/index.html)
+* [統計教室](statistics/index.md)
