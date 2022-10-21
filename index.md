@@ -15,5 +15,3 @@
 
 * [puyopuyo](segapuyo/index.html)
 * [統計教室](statistics/index.md)
-
-$$\int^b_a f(x) dx$$
