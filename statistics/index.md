@@ -1,7 +1,11 @@
 # 統計教室
 
+## 2変数データの記述と要約
+$$
+text{相関係数} r_{xy} = \frac{s_{xy}}{s_x s_y}
+$$
 ## 正規分布
-$$ \int^a_b f(x) \mathrm{d} x$$
+
 ## Studentのt分布
 
 ## 参考文献
