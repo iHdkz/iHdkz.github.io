@@ -2,7 +2,7 @@
 
 ## 2変数データの記述と要約
 $$
-text{相関係数} r_{xy} = \frac{s_{xy}}{s_x s_y}
+\text{相関係数} r_{xy} = \frac{s_{xy}}{s_x s_y}
 $$
 ## 正規分布
 
